@@ -11,7 +11,7 @@ const navigate=useNavigate();
 const dispatch = useDispatch();
 const user= useSelector(store=>store.user);
 const movies = useSelector(store=>store.movies);
-console.log(movies);
+//console.log(movies);
   const handleSignOut =()=>{
     signOut(auth).then(() =>{}).catch((error) => {
       navigate("/error");
@@ -22,7 +22,7 @@ console.log(movies);
     const unsubscribe= onAuthStateChanged(auth, (user) => {
       if (user) {
         const {uid, email,displayName, photoURL} = user;
-        console.log(user);
+        //console.log(user);
         dispatch(addUser({
           uid: uid,
           email: email,
