@@ -72,7 +72,10 @@
         - Popular Movies
         - TopRated Movies
         - Upcoming Movies 
-
+    - GPT Search Page
+    - GPT Search Bar
+    - Multi-Language Feature in our App
+    
 
 
 
